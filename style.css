@@ -3,9 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  display:flex;
+  justify-content: center;
+}
 #grid {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap:10px;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 960px;
 }
