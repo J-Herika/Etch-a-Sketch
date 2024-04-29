@@ -1,9 +1,14 @@
 const grid = document.querySelector("#grid");
 
-let gridBox = document.createElement("div");
 
-gridBox.style.backgroundColor = "red";
-gridBox.style.width = "300px";
-gridBox.style.height = "300px";
+for (let i = 0; i < 16; i++) {
 
-grid.appendChild(gridBox);
+  let gridBox = document.createElement("div");
+  gridBox.className = "grid-box";
+
+  gridBox.style.backgroundColor = "red";
+  gridBox.style.width = "100px";
+  gridBox.style.height = "100px";
+
+  grid.appendChild(gridBox);
+}
